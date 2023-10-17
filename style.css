@@ -62,7 +62,8 @@ button{
         flex-wrap: nowrap;
         height: 700px;
     }
-    .Images{
+    .Image{
         flex-wrap: nowrap;
+        margin-top: 20px;
     }
   }
