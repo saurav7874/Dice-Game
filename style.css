@@ -10,7 +10,7 @@ body {
 .card {
     padding: 50PX;
     width: 400px;
-    height: 620px;
+    height: 650px;
     background-color: #010000;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -36,6 +36,7 @@ body {
 }
 h1{
     color: White;
+    font-family: 'Young Serif', serif;
 }
 h2{
     color: white;
@@ -48,3 +49,19 @@ button{
     font-family: cursive
     
 }
+.Image p{
+    color: white;
+    font-family: cursive;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      padding: 30px;
+    }
+    .card{
+        padding: 30px;
+        flex-wrap: nowrap;
+    }
+    .Images{
+        flex-wrap: nowrap;
+    }
+  }
